@@ -1,7 +1,7 @@
 
 const express = require("express");
 const makeWASocket = require("@whiskeysockets/baileys").default;
-const { useSingleFileAuthState } = require("@whiskeysockets/baileys");
+const { useSingleFileAuthState } = require("@whiskeysockets/baileys/lib/store");
 const qrcode = require("qrcode-terminal");
 const fs = require("fs");
 
